@@ -17,7 +17,7 @@
 }
 html{
     outline: 4px solid blueviolet;
-    background-color:rgba(255, 255, 255, 0.886);
+    background-color:rgb(255, 255, 255);
 }
 body{
     display: flex;
@@ -62,14 +62,14 @@ body{
     font-size: 100px;
 }
 .sign{
-    background-color:rgb(227, 225, 225);
+    background-color:rgb(255, 255, 255);
     
     font-weight: 700;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
 
 }
-p{
+#about{
     line-height: 2rem;
     margin: 6rem 3rem 0rem 3rem ;
     margin-right: 15rem;
@@ -79,6 +79,7 @@ form{
     flex-wrap: wrap;
     gap: 2rem ;
     margin-top: 1.5rem;
+    
     
 }
 form,h3{
@@ -98,14 +99,37 @@ form div{
 .form{
     background-color: white;
     padding-bottom: 1rem;
+    box-shadow: 4px 0px 56px 11px rgba(122,118,122,1);
+
     
 }
 input{
     border: 0.1rem solid #E5E7EB;
     border-radius: 0.2rem ;
 }
-input:focus{
-    border: 0.15rem solid #2b6ff7c8;
-    border-radius: 0.2rem ;
 
+input:focus{
+    border-color: rgb(62, 103, 228);
+    outline: none;
+
+}
+a{
+    color: #596D48;
+}
+#account{
+    font-size: small;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+#create{
+    color: #E5E7EB;
+    background-color: #596D48;
+    padding: 0.7rem 1rem;
+    margin: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+}
+h3{
+    font-weight: 400;
 }
